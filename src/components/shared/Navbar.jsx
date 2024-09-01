@@ -7,9 +7,12 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 import { RiSearchLine } from "react-icons/ri";
 // import { useNavigate } from 'react-router-dom';
 import { useRouter } from 'next/navigation';
+import { signOut, useSession } from 'next-auth/react';
 
 
 const Navbar = () => {
+    const session = useSession();
+    console.log(session);
     const navigate = useRouter();
 
     const [theme, setTheme] = useState("light");
@@ -148,7 +151,10 @@ const Navbar = () => {
                 <button className="px-8 py-3 border-2 border-[#FF3811] text-[#FF3811] text-xl rounded-[4px] hover:bg-[#FF3811] hover:text-white transition-colors duration-300">
                     Appointment
                 </button>
-                <button onClick={() => navigate.push('/login')} className='bg-[#FF3811] px-4 py-3 rounded-xl text-white'>LogIn</button>
+                {
+                    !session.data? <button onClick={() => navigate.push('/login')} className='bg-[#FF3811] px-4 py-3 rounded-xl text-white'>LogIn</button>:
+                    <button onClick={() => signOut()} className='bg-[#FF3811] px-4 py-3 rounded-xl text-white'>LogOut</button>
+                }
 
             </div>
         </div>

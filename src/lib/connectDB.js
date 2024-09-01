@@ -1,20 +1,39 @@
-import { MongoClient, ServerApiVersion } from "mongodb";
+// import { MongoClient, ServerApiVersion } from "mongodb";
 
+// let db;
+// export const connectDB = async () => {
+//  if(db) return db;
+//  try {
+//     const uri = process.env.NEXT_PUBLIC_MONGODB_URI
+//     const client = new MongoClient(uri, {
+//         serverApi: {
+//             version: ServerApiVersion.v1,
+//             strict:true,
+//             deprecationErrors:true
+//         },
+//     });
+//     db= client.db('CarDoctorsPro')
+//     return db;
+//  } catch (error) {
+//     console.log(error);
+//  }
+// };
+import { MongoClient, ServerApiVersion } from "mongodb";
 let db;
 export const connectDB = async () => {
- if(db) return db;
- try {
+  if (db) return db;
+  try {
     const uri = process.env.NEXT_PUBLIC_MONGODB_URI
     const client = new MongoClient(uri, {
-        serverApi: {
-            version: ServerApiVersion.v1,
-            strict:true,
-            deprecationErrors:true
-        },
+      serverApi: {
+        version: ServerApiVersion.v1,
+        strict: true,
+        deprecationErrors: true,
+      },
     });
-    db= client.db('CarDoctorsPro')
+    db = client.db('CarDoctorsPro')
     return db;
- } catch (error) {
-    console.log(error);
- }
+  } catch (error) {
+    console.log({error});
+  }
 };
