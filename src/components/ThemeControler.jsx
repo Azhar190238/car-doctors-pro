@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const ThemeControl = () => {
-    // Set initial theme to light mode (darkMode = false)
+   
     const [darkMode, setDarkMode] = useState(() => {
         const savedTheme = localStorage.getItem("theme");
         return savedTheme === "dark" ? true : false;
