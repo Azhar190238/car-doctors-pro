@@ -25,8 +25,6 @@
 //         setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
 //     }
 
-//     const [activeLink, setActiveLink] = useState('');
-//     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
 
 
