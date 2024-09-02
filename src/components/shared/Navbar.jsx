@@ -180,7 +180,7 @@ const Navbar = () => {
 
     // const [theme, setTheme] = useState("light");
 
-    // useEffect(() => {
+
 
 
     const [activeLink, setActiveLink] = useState('');
