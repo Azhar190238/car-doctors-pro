@@ -156,12 +156,7 @@
 //                     <button onClick={() => signOut()} className='bg-[#FF3811] px-4 py-3 rounded-xl text-white'>LogOut</button>
 //                 }
 
-//             </div>
-//         </div>
-//     );
-// };
 
-// export default Navbar;
 
 
 "use client";
