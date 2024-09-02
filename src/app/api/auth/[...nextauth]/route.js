@@ -19,7 +19,7 @@ const handler = NextAuth({
                 password: {}
             },
             async authorize (credentials) {
-                // return true;
+              
                 const { email, password } = credentials;
                 if (!email || !password) {
                     return null;
