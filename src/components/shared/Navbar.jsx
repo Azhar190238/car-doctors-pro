@@ -119,8 +119,6 @@
 //             </div>
 //             <div className="navbar-end space-x-6">
 
-//                 <label className="swap swap-rotate">
-//                     {/* this hidden checkbox controls the state */}
 
 
 
