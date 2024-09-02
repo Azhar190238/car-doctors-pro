@@ -59,9 +59,7 @@ const handler = NextAuth({
 
 export { handler as GET, handler as POST }
 
-//                 if (!passwordMatched) {
-//                     return null;
-//                 }
+
 //                 return currentUser;
 //             },
 //         }),
