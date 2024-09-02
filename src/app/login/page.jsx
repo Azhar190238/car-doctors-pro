@@ -57,11 +57,6 @@
 //                                 <Form.Item
 //                                     name="password"
 
-//                                     rules={[
-//                                         { required: true, message: 'Please input your password!' },
-//                                     ]}
-//                                 >
-//                                     <Input.Password className='border border-[#FF3811] p-3' placeholder='Password' />
 
 
 "use client";
