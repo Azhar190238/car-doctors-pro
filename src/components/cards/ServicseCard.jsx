@@ -14,7 +14,7 @@ const ServicseCard = ({ service }) => {
                     <h2 className="card-title font-bold text-2xl">{service.title}</h2>
                     <div className='flex justify-between items-center'>
                         <p className='font-bold text-xl text-[#FF3811]'>Price: ${service.price}</p>
-                        {/* <div className="card-actions justify-end"> */}
+                      
                         <button className="btn hover:bg-[#FF3811] text-black hover:text-white">  <FaArrowRight className="" /> </button>
                     </div>
                 </div>
