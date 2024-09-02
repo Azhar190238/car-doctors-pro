@@ -79,9 +79,7 @@
 //             <div className="navbar-center hidden  lg:flex">
 //                 <ul className="flex flex-row px-1 space-x-[30px] text-[16px]">
 //                     {links.map(link => (
-//                         <li key={link.key} className="relative">
-//                             {link.submenu ? (
-//                                 <>
+
 
 
 
