@@ -178,11 +178,6 @@ const Navbar = () => {
     const session = useSession();
     const navigate = useRouter();
 
-    // const [theme, setTheme] = useState("light");
-
-
-
-
     const [activeLink, setActiveLink] = useState('');
 
     const links = [
