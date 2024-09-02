@@ -6,8 +6,7 @@
 // import { HiOutlineShoppingBag } from "react-icons/hi";
 // import { RiSearchLine } from "react-icons/ri";
 // // import { useNavigate } from 'react-router-dom';
-// import { useRouter } from 'next/navigation';
-// import { signOut, useSession } from 'next-auth/react';
+
 
 
 
