@@ -74,18 +74,7 @@
 //                         <p className='lato mt-5 text-center'>or continue with</p>
 //                         <div className='mt-5 flex text-3xl justify-center text-blue-800 gap-3'>
 //                             <button> <FaFacebook /> </button>
-//                             <button><FaLinkedin /> </button>
-//                             <button><AiFillGoogleCircle /> </button>
-//                         </div>
-//                         <p className='mt-5 lato text-[#737373] text-center'>New Here ? Please <span className='text-[#FF3811] font-bold'> <Link href='/signin'>SignUp</Link> </span> </p>
-//                     </div>
-//                 </div>
-//             </div>
-//         </section>
-//     );
-// };
 
-// export default Page;
 
 "use client";
 import React from 'react';
