@@ -103,11 +103,6 @@
 
 //                     <Form.Item>
 //                         <SubmitButton form={form} onClick={form.submit}> {/* Pass the submit handler */}
-//                             Sign Up
-//                         </SubmitButton>
-//                     </Form.Item>
-
-
 
 "use client";
 import Image from 'next/image';
