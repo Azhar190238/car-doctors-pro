@@ -88,10 +88,6 @@
 //                             placeholder="Your Email" 
 //                             className="input input-bordered w-full" 
 //                         />
-//                     </Form.Item>
-
-//                     <Form.Item
-//                         label="Password"
 
 "use client";
 import Image from 'next/image';
