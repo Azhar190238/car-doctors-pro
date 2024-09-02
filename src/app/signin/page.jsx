@@ -75,11 +75,6 @@
 //                             type="text" 
 //                             placeholder="Your Name" 
 //                             className="input input-bordered w-full" 
-//                         />
-//                     </Form.Item>
-
-//                     <Form.Item
-
 
 "use client";
 import Image from 'next/image';
