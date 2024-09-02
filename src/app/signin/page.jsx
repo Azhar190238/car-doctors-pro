@@ -85,9 +85,7 @@
 //                     >
 //                         <Input 
 //                             type="email" 
-//                             placeholder="Your Email" 
-//                             className="input input-bordered w-full" 
-//                         />
+
 
 "use client";
 import Image from 'next/image';
