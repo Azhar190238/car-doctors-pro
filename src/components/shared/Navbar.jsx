@@ -124,9 +124,7 @@
 //                     <input
 //                         type="checkbox"
 //                         className="theme-controller"
-//                         checked={theme === "dark"}
-//                         onChange={handleThemeChange}
-//                     />
+
 
 
 
