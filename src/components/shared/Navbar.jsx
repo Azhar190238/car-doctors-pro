@@ -31,9 +31,7 @@
 //     const links = [
 //         { label: 'Home', path: '/' },
 //         { label: 'About', path: '/' },
-//         { label: 'Services', path: '/' },
-//         { label: 'Blog', path: '/' },
-//         { label: 'Contact', path: '/' },
+
 
 
 
