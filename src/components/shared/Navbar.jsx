@@ -184,9 +184,6 @@ const Navbar = () => {
     //     document.documentElement.setAttribute("data-theme", theme);
     // }, [theme]);
 
-    // const handleThemeChange = () => {
-    //     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
-    // };
 
     const [activeLink, setActiveLink] = useState('');
 
