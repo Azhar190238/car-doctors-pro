@@ -4,11 +4,7 @@
 // import React from 'react';
 // import { Button, Form, Input } from 'antd';
 // import { FaFacebookF } from 'react-icons/fa';
-// import { FcGoogle } from "react-icons/fc";
-// import { RiLinkedinFill } from "react-icons/ri";
 
-// const SubmitButton = ({ form, children, onClick }) => {
-//     const [submittable, setSubmittable] = React.useState(false);
 
 "use client";
 import Image from 'next/image';
