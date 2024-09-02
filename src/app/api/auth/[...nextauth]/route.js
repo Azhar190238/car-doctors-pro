@@ -60,8 +60,6 @@ const handler = NextAuth({
 export { handler as GET, handler as POST }
 
 
-//             credentials: {
-//                 email: {},
 //                 password: {},
 //             },
 //             async authorize(credentials) {
