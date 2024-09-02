@@ -147,10 +147,7 @@
 //                     </svg>
 //                 </label>
 //                 <HiOutlineShoppingBag className='text-xl' />
-//                 <RiSearchLine className='text-xl' />
-//                 <button className="px-8 py-3 border-2 border-[#FF3811] text-[#FF3811] text-xl rounded-[4px] hover:bg-[#FF3811] hover:text-white transition-colors duration-300">
-//                     Appointment
-//                 </button>
+
 
 
 
