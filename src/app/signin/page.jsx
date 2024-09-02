@@ -22,12 +22,7 @@
 
 //     return (
 //         <Button 
-//             type='primary' 
-//             className="w-full border-2 border-[#FF3811] bg-[#FF3811] text-white py-6 text-xl font-semibold" 
-//             htmlType="submit" 
-//             disabled={!submittable}
-//             onClick={onClick}  // Handle the submit event
-//         >
+
 
 "use client";
 import Image from 'next/image';
