@@ -212,7 +212,7 @@ const LoginPage = () => {
                         </SubmitButton>
                     </Form.Item>
 
-                    <h1 className="text-xl font-medium text-center">Or Log in With</h1>
+                    <h1 className="text-xl font-medium text-center ">Or Log in With</h1>
                     <SocialLogIn></SocialLogIn>
                     <h1 className="text-xl font-medium text-center mt-8">
                         Have an Account?{' '}

@@ -5,6 +5,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -17,19 +18,20 @@ module.exports = {
   plugins: [
     require('daisyui'),
   ],
+
   daisyui: {
     themes: [
-      {
-        carDoctorTheme: {
-          "important": "#FF3811",
-          "secondary": "#f6d860",
-          "accent": "#37cdbe",
-          "neutral": "#3d4451",
-          "base-100": "#ffffff",
-        },
-      },
-      "dark",
-      "light",
+      // {
+      //   carDoctorTheme: {
+      //     "important": "#FF3811",
+      //     "secondary": "#f6d860",
+      //     "accent": "#37cdbe",
+      //     "neutral": "#3d4451",
+      //     "base-100": "#ffffff",
+      //   },
+      // },
+      // "dark",
+      // "light",
     ],
   },
 };
