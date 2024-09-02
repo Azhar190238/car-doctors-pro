@@ -99,10 +99,6 @@
 //                             placeholder="Your Password" 
 //                             className="input input-bordered w-full" 
 //                         />
-//                     </Form.Item>
-
-//                     <Form.Item>
-//                         <SubmitButton form={form} onClick={form.submit}> {/* Pass the submit handler */}
 
 "use client";
 import Image from 'next/image';
