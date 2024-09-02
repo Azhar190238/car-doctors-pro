@@ -60,9 +60,6 @@ const handler = NextAuth({
 export { handler as GET, handler as POST }
 
 
-//                 const db = await connectDB();
-//                 const currentUser = await db.collection("users").findOne({ email });
-//                 if (!currentUser) {
 //                     return null;
 //                 }
 //                 const passwordMatched = bcrypt.compareSync(
