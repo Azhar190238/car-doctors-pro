@@ -65,10 +65,7 @@
 //                                 <Link
 //                                     href={link.path}
 //                                     className={activeLink === link.label ? 'text-[#FF3811]' : ''}
-//                                     onClick={() => handleLinkClick(link.label)}
-//                                 >
-//                                     {link.label}
-//                                 </Link>
+
 
 
 
