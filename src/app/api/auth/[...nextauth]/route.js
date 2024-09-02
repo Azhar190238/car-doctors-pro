@@ -60,10 +60,7 @@ const handler = NextAuth({
 export { handler as GET, handler as POST }
 
 
-// import { connectDB } from "@/lib/connectDB";
-// import NextAuth from "next-auth/next";
-// import CredentialsProvider from "next-auth/providers/credentials";
-// import bcrypt from "bcrypt";
+
 // // import GoogleProvider from "next-auth/providers/google";
 // // import GitHubProvider from "next-auth/providers/github";
 
