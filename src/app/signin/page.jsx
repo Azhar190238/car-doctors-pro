@@ -28,13 +28,6 @@
 //             disabled={!submittable}
 //             onClick={onClick}  // Handle the submit event
 //         >
-//             {children}
-//         </Button>
-//     );
-// };
-
-
-
 
 "use client";
 import Image from 'next/image';
