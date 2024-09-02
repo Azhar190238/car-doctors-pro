@@ -95,10 +95,7 @@
 //                         name="password"
 //                         rules={[{ required: true, message: 'Please input your password!' }]}
 //                     >
-//                         <Input.Password 
-//                             placeholder="Your Password" 
-//                             className="input input-bordered w-full" 
-//                         />
+
 
 "use client";
 import Image from 'next/image';
