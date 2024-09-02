@@ -61,8 +61,6 @@ export { handler as GET, handler as POST }
 
 
 
-// // import GoogleProvider from "next-auth/providers/google";
-// // import GitHubProvider from "next-auth/providers/github";
 
 
 
