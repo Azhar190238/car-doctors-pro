@@ -9,9 +9,6 @@
 
 // const Page = () => {
 
-//     const onFinishFailed = (errorInfo) => {
-//         console.log('Failed:', errorInfo);
-//     };
 
 "use client";
 import React from 'react';
