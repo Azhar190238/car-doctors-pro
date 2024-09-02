@@ -44,21 +44,7 @@
 //         };
 //         const res =await fetch("http://localhost:3000/signin/api" , {
 //             method: "POST",
-//             body : JSON.stringify(newUser),
-//             headers : {
-//                 "content-type" : "application/json"
-//             }
-//         })
 
-//         console.log('newUser:', res);
-//         //here user information stored in database 
-//     };
-
-//     return (
-//         <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-[1320px] mx-auto mb-10'>
-//             <div>
-//                 <Image src='/assets/images/login/login.svg' height={550} width={450} alt='LogIn' className='h-[550px]' />
-//             </div>
 
 
 "use client";
