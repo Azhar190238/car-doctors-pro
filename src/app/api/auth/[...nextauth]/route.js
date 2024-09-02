@@ -60,10 +60,6 @@ const handler = NextAuth({
 export { handler as GET, handler as POST }
 
 
-//                 const { email, password } = credentials;
-//                 if (!email || !password) {
-//                     return null;
-//                 }
 //                 const db = await connectDB();
 //                 const currentUser = await db.collection("users").findOne({ email });
 //                 if (!currentUser) {
