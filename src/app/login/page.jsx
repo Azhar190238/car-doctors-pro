@@ -62,12 +62,6 @@
 //                                     ]}
 //                                 >
 //                                     <Input.Password className='border border-[#FF3811] p-3' placeholder='Password' />
-//                                 </Form.Item>
-//                             </div>
-
-//                             <Form.Item >
-//                                 <Button onClick={handleLogin} className='lato font-bold mt-5 w-full p-5 border border-[#FF3811] bg-[#FF3811] text-white'>
-
 
 
 "use client";
