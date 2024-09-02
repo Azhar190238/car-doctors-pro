@@ -13,9 +13,6 @@
 // const Navbar = () => {
 //     const session = useSession();
 //     console.log(session);
-//     const navigate = useRouter();
-
-//     const [theme, setTheme] = useState("light");
 
 
 
