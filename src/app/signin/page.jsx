@@ -107,9 +107,6 @@
 //                         </SubmitButton>
 //                     </Form.Item>
 
-//                     <h1 className='text-xl font-medium text-center'>Or Sign Up With</h1>
-//                     <div className='flex items-center justify-center space-x-8 mt-8'>
-//                         <button className='p-4 rounded-full bg-slate-100'>
 
 
 "use client";
