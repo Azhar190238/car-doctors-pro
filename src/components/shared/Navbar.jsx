@@ -3,9 +3,7 @@
 // import React, { useEffect, useState } from 'react';
 // import Link from 'next/link';
 // import Image from "next/image";
-// import { HiOutlineShoppingBag } from "react-icons/hi";
-// import { RiSearchLine } from "react-icons/ri";
-// // import { useNavigate } from 'react-router-dom';
+
 
 
 
