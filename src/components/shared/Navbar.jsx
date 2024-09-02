@@ -34,9 +34,7 @@
 //         { label: 'Services', path: '/' },
 //         { label: 'Blog', path: '/' },
 //         { label: 'Contact', path: '/' },
-//     ];
 
-//     const handleLinkClick = (label) => {
 
 
 
