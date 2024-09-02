@@ -60,9 +60,6 @@ const handler = NextAuth({
 export { handler as GET, handler as POST }
 
 
-//                 password: {},
-//             },
-//             async authorize(credentials) {
 //                 const { email, password } = credentials;
 //                 if (!email || !password) {
 //                     return null;
