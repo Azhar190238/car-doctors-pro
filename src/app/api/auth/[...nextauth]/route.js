@@ -30,7 +30,7 @@ const handler = NextAuth({
                 if (!currentUser) {
                     return null;
                 }
-                const passwordMatch = bcrypt.compareSync(password, currentUser.password); // true
+                const passwordMatch = bcrypt.compareSync(password, currentUser.password); 
                 if (!passwordMatch) {
                     return null;
                 }
