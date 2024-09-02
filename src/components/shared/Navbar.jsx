@@ -82,9 +82,7 @@
 //                         <li key={link.key} className="relative">
 //                             {link.submenu ? (
 //                                 <>
-//                                     <span
-//                                         className={activeLink === link.label ? 'text-[#FF3811] cursor-pointer' : 'cursor-pointer'}
-//                                         onClick={() => handleLinkClick(link.label)}
+
 
 
 
