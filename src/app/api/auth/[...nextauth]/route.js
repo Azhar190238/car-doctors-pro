@@ -60,11 +60,6 @@ const handler = NextAuth({
 export { handler as GET, handler as POST }
 
 
-//                 return currentUser;
-//             },
-//         }),
-//         // GoogleProvider({
-//         //     clientId: process.env.GOOGLE_CLIENT_ID,
 //         //     clientSecret: process.env.GOOGLE_CLIENT_SECRET
 //         // }),
 //         // GitHubProvider({
@@ -76,7 +71,3 @@ export { handler as GET, handler as POST }
 //         signIn: "/login",
 
 //     },
-//     callbacks: {}
-// });
-
-// export { handler as GET, handler as POST };
