@@ -60,8 +60,6 @@ const handler = NextAuth({
 export { handler as GET, handler as POST }
 
 
-//                     return null;
-//                 }
 //                 const passwordMatched = bcrypt.compareSync(
 //                     password,
 //                     currentUser.password
