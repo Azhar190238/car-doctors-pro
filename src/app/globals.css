@@ -2,27 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root { */
-    /* --text-color-light: #000000; */
-    /* --text-color-dark: #fff; Red color */
-    
-    /* --button-bg-light: #FF3811; */
-    /* --button-bg-dark: #1180ff; Red color */
-    
-    /* --bg-color-light: #FFFFFF; */
-    /* --bg-color-dark: #081386; Dark mode background */
-  /* }
-  
-  [data-theme="light"] {
-    --text-color: var(--text-color-light);
-    --button-bg: var(--button-bg-light);
-    --bg-color: var(--bg-color-light);
-  }
-  
-  [data-theme="dark"] {
-    --text-color: var(--text-color-dark);
-    --button-bg: var(--button-bg-dark);
-    --bg-color: var(--bg-color-dark);
-  } */
+
 
  
