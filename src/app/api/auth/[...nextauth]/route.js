@@ -67,7 +67,3 @@ export { handler as GET, handler as POST }
 //         //     clientSecret: process.env.GITHUB_SECRET
 //         // })
 //     ],
-//     pages: {
-//         signIn: "/login",
-
-//     },
