@@ -59,14 +59,7 @@
 //             <div>
 //                 <Image src='/assets/images/login/login.svg' height={550} width={450} alt='LogIn' className='h-[550px]' />
 //             </div>
-//             <div className='border-2 shadow-xl text-xl rounded-md font-semibold p-16'>
-//                 <h1 className='text-4xl font-bold text-center text-gray-500 mb-10'>Sign Up</h1>
-//                 <Form
-//                     form={form}
-//                     layout="vertical"
-//                     onFinish={handleSignUp} // Use the onFinish method to handle form submission
-//                 >
-                       className="input input-bordered w-full" 
+
 
 "use client";
 import Image from 'next/image';
