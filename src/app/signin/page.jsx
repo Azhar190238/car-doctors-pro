@@ -66,11 +66,7 @@
 //                     layout="vertical"
 //                     onFinish={handleSignUp} // Use the onFinish method to handle form submission
 //                 >
-//                     <Form.Item
-//                         label="Name"
-//                         name="name"
-//                         rules={[{ required: true, message: 'Please input your username!' }]}
-                           className="input input-bordered w-full" 
+                       className="input input-bordered w-full" 
 
 "use client";
 import Image from 'next/image';
