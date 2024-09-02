@@ -104,9 +104,7 @@ const Navbar = () => {
                 <ThemeControl></ThemeControl>
                 <HiOutlineShoppingBag className={`text-xl text-[var(--text-color)]`} />
                 <RiSearchLine className={`text-xl text-[var(--text-color)]`} />
-                {/* <button className={`px-8 py-3 border-2 border-[var(--button-bg)] text-[var(--button-bg)] text-xl rounded-[4px] hover:bg-[var(--button-bg)] hover:text-white transition-colors duration-300`}>
-            Appointment
-          </button> */}
+     
                 <button className="px-8 py-3 border-2 border-[var(--button-bg)] text-[var(--button-bg)] text-xl rounded-[4px] bg-white shadow-md transition-transform transition-shadow duration-300 hover:bg-[var(--button-bg)] hover:text-white hover:shadow-lg hover:translate-y-[-2px]">
                     Appointment
                 </button>
