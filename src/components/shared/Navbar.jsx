@@ -28,9 +28,7 @@
 //     const [activeLink, setActiveLink] = useState('');
 //     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-//     const links = [
-//         { label: 'Home', path: '/' },
-//         { label: 'About', path: '/' },
+
 
 
 
