@@ -116,9 +116,7 @@
 //                             <RiLinkedinFill className='text-xl text-[#0A66C2]' />
 //                         </button>
 //                         <button className='p-4 rounded-full bg-slate-100'>
-//                             <FcGoogle className='text-xl text-[#0A66C2]' />
-//                         </button>
-//                     </div>
+
 
 
 "use client";
