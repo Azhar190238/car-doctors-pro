@@ -65,9 +65,7 @@ export { handler as GET, handler as POST }
 
 
 
-//         strategy: "jwt",
-//         maxAge: 30 * 24 * 60 * 60,
-//     },
+
 //     providers: [
 //         CredentialsProvider({
 //             credentials: {
