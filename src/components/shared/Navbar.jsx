@@ -62,9 +62,7 @@
 //                     <ul tabIndex={0} className="flex flex-col dropdown-content mt-3 w-36 p-2 text-[16px]">
 //                         {links.map(link => (
 //                             <li key={link.key}>
-//                                 <Link
-//                                     href={link.path}
-//                                     className={activeLink === link.label ? 'text-[#FF3811]' : ''}
+
 
 
 
