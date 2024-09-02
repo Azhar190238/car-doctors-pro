@@ -110,10 +110,6 @@
 //                     <h1 className='text-xl font-medium text-center'>Or Sign Up With</h1>
 //                     <div className='flex items-center justify-center space-x-8 mt-8'>
 //                         <button className='p-4 rounded-full bg-slate-100'>
-//                             <FaFacebookF className='text-xl text-[#0A66C2]' />
-//                         </button>
-//                         <button className='p-4 rounded-full bg-slate-100'>
-//                             <RiLinkedinFill className='text-xl text-[#0A66C2]' />
 
 
 "use client";
