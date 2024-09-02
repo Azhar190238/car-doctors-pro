@@ -122,11 +122,6 @@
 //                     <h1 className='text-xl font-medium text-center mt-8'>Already have an Account? <a href="/login"> <span className='text-[#ff3811]'>LogIn</span></a> </h1>
 //                 </Form>
 //             </div>
-//         </div>
-//     );
-// };
-
-// export default Page;
 
 "use client";
 import Image from 'next/image';
