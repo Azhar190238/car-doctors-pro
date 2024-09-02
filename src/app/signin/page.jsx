@@ -6,7 +6,7 @@ import { Button, Form, Input } from 'antd';
 import { FaFacebookF } from 'react-icons/fa';
 import { FcGoogle } from "react-icons/fc";
 import { RiLinkedinFill } from "react-icons/ri";
-import Swal from 'sweetalert2'; // Import SweetAlert
+import Swal from 'sweetalert2'; 
 
 const SubmitButton = ({ form, children}) => {
     const [submittable, setSubmittable] = React.useState(false);
