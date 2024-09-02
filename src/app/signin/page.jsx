@@ -39,11 +39,6 @@
 //     const handleSignUp = async (values) => {
 //         const newUser = {
 //             name: values.name,
-//             email: values.email,
-//             password: values.password,
-//         };
-//         const res =await fetch("http://localhost:3000/signin/api" , {
-//             method: "POST",
 
 
 
