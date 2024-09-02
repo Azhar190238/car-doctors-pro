@@ -73,9 +73,6 @@
 //                             </li>
 //                         ))}
 //                     </ul>
-//                 </div>
-//                 <Image src='/assets/logo.svg' height={46} width={90} alt="logo image"></Image>
-//             </div>
 
 
 
