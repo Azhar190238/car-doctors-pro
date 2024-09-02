@@ -67,13 +67,7 @@
 
 //                             <Form.Item >
 //                                 <Button onClick={handleLogin} className='lato font-bold mt-5 w-full p-5 border border-[#FF3811] bg-[#FF3811] text-white'>
-//                                     Login
-//                                 </Button>
-//                             </Form.Item>
-//                         </Form>
-//                         <p className='lato mt-5 text-center'>or continue with</p>
-//                         <div className='mt-5 flex text-3xl justify-center text-blue-800 gap-3'>
-//                             <button> <FaFacebook /> </button>
+
 
 
 "use client";
