@@ -5,9 +5,7 @@
 // import Image from "next/image";
 // import { HiOutlineShoppingBag } from "react-icons/hi";
 // import { RiSearchLine } from "react-icons/ri";
-// import { useRouter } from 'next/navigation';
-// import { signOut, useSession } from 'next-auth/react';
-// import ThemeControl from '../ThemeControler';
+
 
 
 
