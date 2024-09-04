@@ -32,9 +32,6 @@ export default Services;
 
 
 
-//         console.error("Error fetching services:", error);
-//         // Return an empty array in case of error
-//         return [];
 //     }
 // };
 
