@@ -63,14 +63,6 @@
 //             </div>
 //             <div className="navbar-center hidden lg:flex">
 //                 <ul className="flex flex-row px-1 space-x-[30px] text-[16px]">
-//                     {links.map(link => (
-//                         <li key={link.label} className="relative">
-//                             <Link
-//                                 href={link.path}
-//                                 className={`${activeLink === link.label ? 'text-[#FF3811]' : 'text-[var(--text-color)]'}`}
-//                                 onClick={() => handleLinkClick(link.label)}
-
-
 
 
 "use client";
