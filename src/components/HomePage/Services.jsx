@@ -32,9 +32,6 @@ export default Services;
 
 
 
-//         // Ensure the data is always returned as an array
-//         return Array.isArray(data) ? data : [data];
-//     } catch (error) {
 //         console.error("Error fetching services:", error);
 //         // Return an empty array in case of error
 //         return [];
