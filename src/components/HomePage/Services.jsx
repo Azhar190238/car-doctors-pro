@@ -32,9 +32,6 @@ export default Services;
 
 
 
-//     const providers = await getServices();
-
-//     console.log(providers);
     
 //     return (
 //         <div className='max-w-[1320px] mx-auto -mt-32'>
