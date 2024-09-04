@@ -23,9 +23,6 @@
 //         { label: 'Contact', path: '/' },
 //     ];
 
-//     const handleLinkClick = (label) => {
-//         setActiveLink(label);
-//     };
 
 
 
