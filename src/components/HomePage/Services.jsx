@@ -3,8 +3,6 @@ import ServicseCard from '../cards/ServicseCard';
 import { getService } from '@/services/getServices';
 
 
-
-// const services = await getService();
 const Services = async () => {
     const services = await getService();
     console.log(services);
