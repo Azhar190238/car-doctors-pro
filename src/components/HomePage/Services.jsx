@@ -32,10 +32,6 @@ export default Services;
 
 
 
-//     }
-// };
-
-// const Services = async () => {
 //     const providers = await getServices();
 
 //     console.log(providers);
