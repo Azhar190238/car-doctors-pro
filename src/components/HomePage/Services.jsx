@@ -31,10 +31,6 @@ const Services = async () => {
 export default Services;
 
 
-// const getServices = async () => {
-//     try {
-//         const resp = await fetch("http://localhost:3000/services/api/get-all");
-//         const data = await resp.json();
 
 //         // Ensure the data is always returned as an array
 //         return Array.isArray(data) ? data : [data];
