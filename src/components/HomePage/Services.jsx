@@ -31,8 +31,6 @@ const Services = async () => {
 export default Services;
 
 
-//         </div>
-//     );
 // };
 
 // export default Services;
