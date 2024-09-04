@@ -64,7 +64,7 @@ const Page = () => {
     };
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-[1320px] mx-auto mb-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-[1320px] dark:text-white mx-auto mb-10'>
             <div>
                 <Image src='/assets/images/login/login.svg' height={550} width={450} alt='LogIn' className='h-[550px]' />
             </div>
@@ -74,16 +74,18 @@ const Page = () => {
                     form={form}
                     layout="vertical"
                     onFinish={handleSignUp}
+                    
                 >
                     <Form.Item
                         label="Name"
                         name="name"
                         rules={[{ required: true, message: 'Please input your username!' }]}
+                        className='dark:text-white'
                     >
                         <Input 
                             type="text" 
                             placeholder="Your Name" 
-                            className="input input-bordered w-full" 
+                            className="input dark:border-white  input-bordered w-full" 
                         />
                     </Form.Item>
 

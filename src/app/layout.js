@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="carDoctorTheme">
-      <body>
+      <body className="dark:text-white dark:bg-black">
         <AuthProviders>
         <Navbar/>
         {children}
