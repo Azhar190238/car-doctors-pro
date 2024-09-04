@@ -46,11 +46,6 @@
 //                         </svg>
 //                     </div>
 //                     <ul tabIndex={0} className="flex flex-col dropdown-content mt-3 w-36 p-2 text-[16px] bg-[var(--bg-color)]">
-//                         {links.map(link => (
-//                             <li key={link.label}>
-//                                 <Link
-//                                     href={link.path}
-//                                     className={`${activeLink === link.label ? 'text-[#FF3811]' : 'text-[var(--text-color)]'}`}
 
 "use client";
 import React, { useEffect, useState } from 'react';
