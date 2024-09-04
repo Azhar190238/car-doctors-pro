@@ -31,9 +31,6 @@ const Services = async () => {
 export default Services;
 
 
-//                     <ServicseCard service={service} key={service._id} />
-//                 ))}
-//             </div>
 //         </div>
 //     );
 // };
