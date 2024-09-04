@@ -69,12 +69,7 @@
 //                                 href={link.path}
 //                                 className={`${activeLink === link.label ? 'text-[#FF3811]' : 'text-[var(--text-color)]'}`}
 //                                 onClick={() => handleLinkClick(link.label)}
-//                             >
-//                                 {link.label}
-//                             </Link>
-//                         </li>
-//                     ))}
-//                 </ul>
+
 
 
 
