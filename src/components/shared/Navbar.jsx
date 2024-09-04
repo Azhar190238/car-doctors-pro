@@ -9,9 +9,6 @@
 // import { signOut, useSession } from 'next-auth/react';
 // import ThemeControl from '../ThemeControler';
 
-// const Navbar = () => {
-//     const session = useSession();
-//     const navigate = useRouter();
 
 
 
