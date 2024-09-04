@@ -31,11 +31,6 @@ const Services = async () => {
 export default Services;
 
 
-
-    
-//     return (
-//         <div className='max-w-[1320px] mx-auto -mt-32'>
-//             <h1>services: {providers.length}</h1>
 //             <div className='flex flex-col space-y-6 items-center text-center mb-10'>
 //                 <h1 className='font-bold text-xl text-[#FF3811]'>Services</h1>
 //                 <h2 className='font-bold text-2xl md:text-5xl'>Our Service Area</h2>
