@@ -75,11 +75,6 @@
 //                         </li>
 //                     ))}
 //                 </ul>
-//             </div>
-//             <div className="navbar-end space-x-6">
-
-//                 <ThemeControl></ThemeControl>
-//                 <HiOutlineShoppingBag className={`text-xl text-[var(--text-color)]`} />
 
 
 
