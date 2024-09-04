@@ -41,11 +41,6 @@
 //                             <path
 //                                 strokeLinecap="round"
 //                                 strokeLinejoin="round"
-//                                 strokeWidth="2"
-//                                 d="M4 6h16M4 12h8m-8 6h16" />
-//                         </svg>
-//                     </div>
-//                     <ul tabIndex={0} className="flex flex-col dropdown-content mt-3 w-36 p-2 text-[16px] bg-[var(--bg-color)]">
 
 "use client";
 import React, { useEffect, useState } from 'react';
