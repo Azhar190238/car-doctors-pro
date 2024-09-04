@@ -57,13 +57,6 @@
 //                                 </Link>
 //                             </li>
 //                         ))}
-//                     </ul>
-//                 </div>
-//                 <Image src='/assets/logo.svg' height={46} width={90} alt="logo image"></Image>
-//             </div>
-//             <div className="navbar-center hidden lg:flex">
-//                 <ul className="flex flex-row px-1 space-x-[30px] text-[16px]">
-
 
 "use client";
 import React, { useEffect, useState } from 'react';
