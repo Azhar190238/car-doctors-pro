@@ -31,10 +31,6 @@ const Services = async () => {
 export default Services;
 
 
-// import React from 'react';
-// import ServicseCard from '../cards/ServicseCard';
-// // import ServiceCard from '../cards/ServiceCard';
-
 // const getServices = async () => {
 //     try {
 //         const resp = await fetch("http://localhost:3000/services/api/get-all");
