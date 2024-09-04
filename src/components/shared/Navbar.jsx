@@ -87,13 +87,7 @@
 //                 </button>
 //                 {
 //                     !session.data ? <button onClick={() => navigate.push('/login')} className={`px-8 py-3 border-2 border-[#FF3811] text-[#FF3811] text-xl rounded-[4px] hover:bg-[#FF3811] hover:text-white transition-colors duration-300`}>
-//                         Login
-//                     </button> : <button onClick={() => navigate.push('/logout')} className={`px-8 py-3 border-2 border-[var(--button-bg)] text-[var(--button-bg)] text-xl rounded-[4px] hover:bg-[#FF3811] hover:text-white transition-colors duration-300`}>
-//                        Logout
-//                     </button>
-//                 }
-//             </div>
-
+/
 
 
 
