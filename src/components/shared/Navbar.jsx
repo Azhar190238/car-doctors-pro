@@ -27,9 +27,7 @@
 //         setActiveLink(label);
 //     };
 
-//     return (
-//         <div className={`navbar relative z-10 max-w-[1320px]   mx-auto my-5 `}>
-                  stroke="currentColor">
+
 
 "use client";
 import React, { useEffect, useState } from 'react';
