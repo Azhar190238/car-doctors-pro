@@ -16,9 +16,6 @@
 //     const [activeLink, setActiveLink] = useState('');
 
 //     const links = [
-//         { label: 'Home', path: '/' },
-//         { label: 'About', path: '/' },
-//         { label: 'Services', path: '/' },
 
 
 
