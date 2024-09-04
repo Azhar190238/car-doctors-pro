@@ -84,10 +84,6 @@
      
 //                 <button className="px-8 py-3 border-2 border-[#FF3811] text-[#FF3811] text-xl rounded-[4px] bg-white shadow-md transition-transform transition-shadow duration-300 hover:bg-[#FF3811] hover:text-white hover:shadow-lg hover:translate-y-[-2px]">
 //                     Appointment
-//                 </button>
-//                 {
-//                     !session.data ? <button onClick={() => navigate.push('/login')} className={`px-8 py-3 border-2 border-[#FF3811] text-[#FF3811] text-xl rounded-[4px] hover:bg-[#FF3811] hover:text-white transition-colors duration-300`}>
-/
 
 
 
