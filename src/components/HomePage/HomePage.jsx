@@ -1,17 +1,14 @@
-import React from 'react';
-import Banner from './Banner';
-import AboutUs from './AboutUs';
-import Services from './Services';
-
-
+import React from "react";
+import Banner from "./Banner";
+import About from "./About";
+import Service from "./Service";
 const HomePage = () => {
     return (
         <div>
-         <Banner/>
-         <AboutUs/>
-         <Services/>
+            <Banner/>
+            <About/>
+            <Service/>
         </div>
-    );
-};
-
-export default HomePage;
+    )
+}
+export default HomePage

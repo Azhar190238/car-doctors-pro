@@ -1,142 +1,78 @@
-
-
 "use client";
-import React from 'react';
-import Image from 'next/image';
-import { Button, Form, Input, message } from 'antd';
-import { FaFacebookF } from 'react-icons/fa6';
-import { FcGoogle } from "react-icons/fc";
-import { RiLinkedinFill } from "react-icons/ri";
-import { signIn } from "next-auth/react";
-import Swal from 'sweetalert2';
-import { useRouter } from 'next/router';
-import { useSearchParams } from 'next/navigation';
-import SocialLogIn from '@/components/shared/SocialLogIn';
-
-
-const SubmitButton = ({ form, children, handleLogin }) => {
-    const [submittable, setSubmittable] = React.useState(false);
-    const values = Form.useWatch([], form);
-
-    React.useEffect(() => {
-        form
-            .validateFields({
-                validateOnly: true,
-            })
-            .then(() => setSubmittable(true))
-            .catch(() => setSubmittable(false));
-    }, [form, values]);
-
-    return (
-        <Button
-            type="primary"
-            htmlType="submit"
-            className="w-full border-2 border-[#FF3811] bg-[#FF3811] text-white py-6 text-xl font-semibold"
-            disabled={!submittable}
-            onClick={() => form.submit()}
-        >
-            {children}
-        </Button>
-    );
-};
-
-const LoginPage = () => {
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { signIn, useSession } from "next-auth/react";
+import SocialLogin from "@/components/Shared/SocialLogin";
+import { useRouter, useSearchParams } from "next/navigation";
+const Page = () => {
+    const router = useRouter();
+    const session = useSession();
     const searchParams = useSearchParams();
     const path = searchParams.get("redirect");
 
-    // const router = useRouter();
-    const [form] = Form.useForm();
-  
 
-    const handleLogin = async (values) => {
-        const { email, password } = values;
-
-        try {
-            const resp = await signIn("credentials", {
-                email,
-                password,
-                redirect: true,
+    const handleLogin = async (event) => {
+        event.preventDefault();
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        const resp = await signIn("credentials", {
+            email,
+            password,
+            redirect: false,
             callbackUrl: path ? path : "/",
-      
-
-            });
-
-            if (resp.ok) {
-                Swal.fire("Log In Successfully Done!");
-               
-             
-            } else {
-                message.error('Login failed, please check your credentials.');
-            }
-
-           
-        } catch (error) {
-            message.error('An error occurred during login.');
-            console.error("Login error:", error);
+        });
+        if (resp.status === 200) {
+            router.push('/')
         }
     };
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-[1320px] mx-auto mb-10">
-            <div>
-                <Image
-                    src='/assets/images/login/login.svg'
-                    height={550}
-                    width={450}
-                    alt='LogIn'
-                    className='h-[550px]'
-                />
-            </div>
-            <div className="border-2 shadow-xl text-xl rounded-md font-semibold p-16">
-                <h1 className="text-4xl font-bold text-center text-gray-500 mb-10">
-                    Log In
-                </h1>
-                <Form
-                    form={form}
-                    layout="vertical"
-                    onFinish={handleLogin}
-                >
-                    <Form.Item
-                        label="Email"
-                        name="email"
-                        rules={[{ required: true, message: 'Please input your email!' }]}
-                    >
-                        <Input
-                            type="email"
-                            placeholder="Your Email"
-                            className="input input-bordered w-full"
+        <div className="max-w-[1320px] mx-auto py-20 bg-white dark:bg-black">
+            <div className="grid grid-cols-2 gap-12 items-center">
+                <div>
+                    <Image
+                        src="/assets/images/login/login.svg"
+                        height="540"
+                        width="540"
+                        alt="login image"
+                    />
+                </div>
+                <div className="border-2 p-12">
+                    <h6 className="text-3xl font-semibold text-black dark:text-red-800 lato text-center mb-12">
+                        Sign In
+                    </h6>
+                    <form onSubmit={handleLogin} action="">
+                        <label htmlFor="email">Email</label> <br />
+                        <input
+                            type="text"
+                            name="email"
+                            placeholder="your email"
+                            className="mt-3 w-full border border-[#FF3811] p-3 rounded-lg"
                         />
-                    </Form.Item>
-
-                    <Form.Item
-                        label="Password"
-                        name="password"
-                        rules={[{ required: true, message: 'Please input your password!' }]}
-                    >
-                        <Input.Password
-                            placeholder="Your Password"
-                            className="input input-bordered w-full"
+                        <br /> <br />
+                        <label htmlFor="password">Password</label> <br />
+                        <input
+                            type="password"
+                            name="password"
+                            placeholder="your password"
+                            className="w-full mt-3 border border-[#FF3811] p-3 rounded-lg"
                         />
-                    </Form.Item>
+                        <br />
+                        <button
+                            type="submit" className='lato font-bold mt-10 rounded-lg w-full p-3 border border-[#FF3811] bg-[#FF3811] text-white'>
+                            Sign Up
+                        </button>
+                    </form>
 
-                    <Form.Item>
-                        <SubmitButton form={form}>
-                            Log In
-                        </SubmitButton>
-                    </Form.Item>
+                    <p className='lato mt-5 text-center'>or continue with</p>
+                    <SocialLogin />
+                    <p className='mt-5 lato text-[#737373] text-center'>New Here ? Please <span className='text-[#FF3811] font-bold'> <Link href='/signup'>Sign Up</Link> </span> </p>
 
-                    <h1 className="text-xl font-medium text-center ">Or Log in With</h1>
-                    <SocialLogIn></SocialLogIn>
-                    <h1 className="text-xl font-medium text-center mt-8">
-                        Have an Account?{' '}
-                        <a href="/signin">
-                            <span className="text-[#ff3811]">Sign Up</span>
-                        </a>
-                    </h1>
-                </Form>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 
-export default LoginPage;
+export default Page;

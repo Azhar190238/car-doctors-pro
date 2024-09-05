@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.lato {
+  font-family: Lato;
+}
+
+.bg-area{
+  clip-path: polygon(16% 78%, 86% 79%, 100% 100%, 0% 100%);
+}
 
 
- 
+
+

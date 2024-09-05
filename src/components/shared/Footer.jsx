@@ -1,10 +1,9 @@
-import React from 'react';
-
+import React from "react";
 
 const Footer = () => {
     return (
-        <div className='text-base-content bg-base-200'>
-          <footer className="footer  max-w-[1320px] mx-auto">
+        <div>
+            <footer className="footer bg-base-200 dark:bg-black text-base-content p-10">
                 <aside>
                     <svg
                         width="50"
@@ -45,8 +44,6 @@ const Footer = () => {
                 </nav>
             </footer>
         </div>
-    );
-};
-
-
+    )
+}
 export default Footer;

@@ -1,4 +1,3 @@
-
 import { MongoClient, ServerApiVersion } from "mongodb";
 let db;
 export const connectDB = async () => {
@@ -12,7 +11,7 @@ export const connectDB = async () => {
         deprecationErrors: true,
       },
     });
-    db = client.db('CarDoctorsPro')
+    db = client.db('car-repair')
     return db;
   } catch (error) {
     console.log({error});

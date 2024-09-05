@@ -1,40 +1,34 @@
-"use client"
-import { signIn, useSession } from "next-auth/react";
-import { useRouter, useSearchParams } from "next/navigation";
-import React from "react";
-import { BsGithub, BsGoogle } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa6";
-import { FcGoogle } from "react-icons/fc";
+import { signIn } from 'next-auth/react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import React from 'react';
+import { AiFillGoogleCircle } from 'react-icons/ai';
+import { FaFacebook, FaGithub } from 'react-icons/fa';
 
-const SocialLogIn = () => {
-  const router = useRouter()
-  const searchParams = useSearchParams()
+const SocialLogin = () => {
 
-  const path = searchParams.get('redirect')
-  const session = useSession()
-    const handleSocialLogin = (provider) => {
-        const resp = signIn(provider, {
-          redirect : true,
-          callbackUrl : path ? path : '/'
-        })
+    const router = useRouter();
+    const searchParams = useSearchParams();
+    const path = searchParams.get("redirect");
+
+    const handleSocialLogin = async (provider) => {
+        const resp = await signIn(provider, 
+            {
+               redirect: true,
+               callbackUrl: path ? path : '/' 
+            }
+        )
     }
-    
-  return (
-    <div className="flex items-center justify-center space-x-8 mt-8">
-    <button  className="p-4 rounded-full bg-slate-100">
-        <FaFacebookF className="text-xl text-[#0A66C2]" />
-    </button>
-    <button onClick={() => handleSocialLogin('github')}  className="p-4 rounded-full bg-slate-100">
-        <BsGithub  className="text-xl text-[#0A66C2]" />
-    </button>
-    <button onClick={() => handleSocialLogin('google')} className="p-4 rounded-full bg-slate-100">
-        <FcGoogle  className="text-xl text-[#0A66C2]" />
-    </button>
-</div>
 
-
-
-  );
+    return (
+        <div>
+            <div className='mt-5 flex text-3xl justify-center text-blue-800 gap-3'>
+                <button onClick={() => handleSocialLogin('github')}> <FaGithub /> </button>
+                <button onClick={() => handleSocialLogin('google')}><AiFillGoogleCircle /> </button>
+                <button onClick={() => handleSocialLogin('facebook')}> <FaFacebook /> </button>
+            </div>
+        </div>
+    );
 };
 
-export default SocialLogIn;
+
+export default SocialLogin;
